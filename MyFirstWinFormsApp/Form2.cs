@@ -52,7 +52,7 @@ namespace MyFirstWinFormsApp
 
         private void cmdColor_Click(object sender, EventArgs e)
         {
-            BackColor = Color.Yellow;
+            BackColor = Color.Gray;
             lblAnzeige.BackColor = Color.FromArgb(192, 255, 0);
         }
     }
